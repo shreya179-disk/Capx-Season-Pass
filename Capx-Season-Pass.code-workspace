@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "Capx-Season-Pass",
+			"path": "."
+		},
+		{
+			"name": "public",
+			"path": "../capx-seasonpass/public"
+		}
+	],
+	"settings": {}
+}

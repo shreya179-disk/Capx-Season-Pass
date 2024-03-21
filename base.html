@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Season Pass ID</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #222;
+  }
+  .header {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  .pass-info {
+    border: 2px solid #444;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  .validity,
+  .non-refundable,
+  .single-use {
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    color: black;
+  }
+  .validity {
+    background-color: #4CAF50;
+  }
+  .non-refundable {
+    background-color: #f44336;
+  }
+  .single-use {
+    background-color: #4CAF50;
+  }
+  .months {
+    display: flex;
+    justify-content: space-between;
+  }
+  .month {
+    flex-grow: 1;
+    padding: 5px;
+    margin: 5px;
+    background-color: #222;
+  }
+  .batches {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  .batch {
+    padding: 5px;
+    margin: 5px;
+    background-color: #555;
+    width: 30px;
+    display: inline-block;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">CapX</div>
+  <div class="pass-info">SEASON PASS ID.</div>
+  <div class="validity">ALPHA</div>
+  <div class="non-refundable">NON REFUNDABLE</div>
+  <div class="single-use">VALID FOR SINGLE USE</div>
+  <div class="months">
+    <div class="month">FEB</div>
+    <div class="month">MAR</div>
+    <div class="month">APR</div>
+    <div class="month">MAY</div>
+  </div>
+  <ul class="batches">
+    <li class="batch">1</li>
+    <li class="batch">2</li>
+    <!-- Add more batches as needed -->
+    <li class="batch">16</li>
+  </ul>
+</div>
+</body>
+</html>
